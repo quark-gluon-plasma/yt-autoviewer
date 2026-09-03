@@ -19,15 +19,15 @@ python yt_alerts.py
 On first run a `config.json` is created next to the script — open it (or
 right-click the tray icon → `Settings`) and set `"channel"` to any of:
 
-- Channel ID: `UC_x5XG1OV2P6uZZ5FSM9Ttw`
-- Handle: `@LinusTechTips`
-- Full URL: `https://www.youtube.com/@LinusTechTips`
+- Channel ID: `UCp5lYB-oMvUwFN3Pf21VLtw`
+- Handle: `@BimmyJimmyCat`
+- Full URL: `https://www.youtube.com/@BimmyJimmyCat`
 
 ## Settings (`config.json`)
 
 | Key | Default | What it does |
 |---|---|---|
-| `channel` | `@YouTube` | Channel to watch (ID, `@handle`, or URL) |
+| `channel` | `@BimmyJimmyCat` | Channel to watch (ID, `@handle`, or URL) |
 | `poll_minutes` | `5` | How often to check for new videos (min 1) |
 | `toast_timeout_seconds` | `15` | Alert auto-dismiss time (`0` = stay forever) |
 | `theme` | `"system"` | Toast theme: `system` (follow Windows light/dark), `pastel`, `light`, or `dark`. Switchable live from the tray icon → `Theme` menu |

@@ -27,8 +27,8 @@ CONFIG_PATH = os.path.join(BASE_DIR, "config.json")
 SEEN_PATH = os.path.join(BASE_DIR, "seen_videos.json")
 
 DEFAULT_CONFIG = {
-    "channel": "@YouTube",
-    "channel_comment": "Any channel ID (UC...), @handle, or full channel URL. Examples: '@LinusTechTips', 'https://www.youtube.com/@LinusTechTips', 'https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw'",
+    "channel": "@BimmyJimmyCat",
+    "channel_comment": "Any channel ID (UC...), @handle, or full channel URL. Examples: '@BimmyJimmyCat', 'https://www.youtube.com/@BimmyJimmyCat', 'https://www.youtube.com/channel/UCp5lYB-oMvUwFN3Pf21VLtw'",
     "poll_minutes": 5,
     "toast_timeout_seconds": 15,
     "theme": "system",
