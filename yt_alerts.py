@@ -228,6 +228,12 @@ def run_mini_player(video_id, video_title, width, height):
     """Entry point for `yt_alerts.py --play <id>`. Borderless bottom-right."""
     import tkinter as tk
     from http.server import BaseHTTPRequestHandler, HTTPServer
+    # Sounding autoplay normally needs a user gesture or media-engagement
+    # history, which a fresh background window has neither of. This Chromium
+    # switch lifts that requirement; scoped to this subprocess only via env,
+    # so the user's real Edge browser is untouched.
+    os.environ["WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS"] = \
+        "--autoplay-policy=no-user-gesture-required"
     # Compute bottom-right position with tkinter (no visible window).
     tmp = tk.Tk()
     tmp.withdraw()
