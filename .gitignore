@@ -1,0 +1,12 @@
+# Local runtime state (per-machine, never commit)
+config.json
+seen_videos.json
+
+# Python
+__pycache__/
+*.pyc
+dist/
+build/
+*.spec
+.venv/
+venv/
